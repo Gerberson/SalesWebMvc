@@ -1,0 +1,49 @@
+﻿@model SalesWebMvc.Models.Entities.Seller
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+<div>
+    <h4>Seller</h4>
+    <hr />
+
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(x => x.Name)
+        </dt>
+        <dd>
+            @Html.DisplayFor(x => x.Name)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(x => x.Email)
+        </dt>
+        <dd>
+            @Html.DisplayFor(x => x.Email)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(x => x.BirthDate)
+        </dt>
+        <dd>
+            @Html.DisplayFor(x => x.BirthDate)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(x => x.BaseSalary)
+        </dt>
+        <dd>
+            @Html.DisplayFor(x => x.BaseSalary)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(x => x.Department.Name)
+        </dt>
+        <dd>
+            @Html.DisplayFor(x => x.Department.Name)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-info">Edit</a>
+    <a asp-action="Delete" asp-route-id="@Model.Id" class="btn btn-danger">Delete</a>
+</div>
+
+
