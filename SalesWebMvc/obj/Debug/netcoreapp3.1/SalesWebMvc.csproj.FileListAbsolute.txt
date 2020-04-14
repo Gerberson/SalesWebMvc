@@ -168,3 +168,4 @@ C:\dev\Nelio_Alves\SalesWebMvc\SalesWebMvc\obj\Debug\netcoreapp3.1\Razor\Views\S
 C:\dev\Nelio_Alves\SalesWebMvc\SalesWebMvc\obj\Debug\netcoreapp3.1\Razor\Views\Sellers\Create.cshtml.g.cs
 C:\dev\Nelio_Alves\SalesWebMvc\SalesWebMvc\obj\Debug\netcoreapp3.1\Razor\Views\Sellers\Delete.cshtml.g.cs
 C:\dev\Nelio_Alves\SalesWebMvc\SalesWebMvc\obj\Debug\netcoreapp3.1\Razor\Views\Sellers\Details.cshtml.g.cs
+C:\dev\Nelio_Alves\SalesWebMvc\SalesWebMvc\obj\Debug\netcoreapp3.1\Razor\Views\Sellers\Edit.cshtml.g.cs
